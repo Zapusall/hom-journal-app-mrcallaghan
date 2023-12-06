@@ -24,7 +24,7 @@ app.use("/js", express.static("assets/js"));
 //  the exported router object is an example of middleware
 app.use("/", require("./server/routes/router"));
 
-// start the server on port 8080
+// start the server on port 8080.
 app.listen(8080, () => {
   console.log("server is listening on http://localhost:8080");
 });
