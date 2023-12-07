@@ -24,7 +24,7 @@ route.get("/createEntry", (req, res) => {
 route.post("/createEntry", async (req, res) => {
   const entry = new Entry({
     date: req.body.date,
-    email: "gschmit@naperville203.org",
+    email: "saczaplewski@stu.naperville203.org",
     habit: req.body.habit,
     content: req.body.content,
   });
